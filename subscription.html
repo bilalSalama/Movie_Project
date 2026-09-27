@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies App</title>
+
+  <!-- CSS Style Files And Formatter Files -->
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/subscription.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start Header And Navbar -->
+  <header class="main-header">
+    <div class="container">
+      <nav class="nav-container">
+        <img src="images/Logo.svg" alt="logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a class="active" href="subscription.html">Subscription</a></li>
+        </ul>
+        <div class="nav-icons">
+          <i class="search fa-brands fa-sistrix "></i>
+          <i class="notif fa-regular fa-bell "></i>
+        </div>
+        <div class="burger-menue">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header And Navbar -->
+
+  <!-- Start Pricing Section -->
+  <section class="pricing" id="plans">
+    <div class="container">
+      <div class="pricing-header">
+        <div class="pricing-text">
+          <h3>Choose the plan that's right for you</h3>
+          <p>Join StreamVibe and select from our flexible subscription options tailored to suit your viewing
+            preferences. Get ready
+            for non-stop entertainment!
+          </p>
+        </div>
+        <div class="plan-duration">
+          <button type="button" class="duration-btn active">Monthly</button>
+          <button type="button" class="duration-btn">Yearly</button>
+        </div>
+      </div>
+      <div class="plans">
+        <div class="plan-card">
+          <h4>Basic Plan</h4>
+          <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released
+            titles.</p>
+          <div class="price">$9.99<span>/Month</span></div>
+          <div class="subscribe-actions">
+            <button type="button" class="free-btn">Start Free Trial</button>
+            <button type="button" class="buy-btn">Choose Plan</button>
+          </div>
+        </div>
+        <div class="plan-card">
+          <h4>Standard Plan</h4>
+          <p>Access to a wider selection of movies and shows, including most new releases and exclusive content.</p>
+          <div class="price">$12.99<span>/Month</span></div>
+          <div class="subscribe-actions">
+            <button type="button" class="free-btn">Start Free Trial</button>
+            <button type="button" class="buy-btn">Choose Plan</button>
+          </div>
+        </div>
+        <div class="plan-card">
+          <h4>Premium Plan</h4>
+          <p>Access to a widest selection of movies and shows, including all new releases and Offline Viewing</p>
+          <div class="price">$14.99<span>/Month</span></div>
+          <div class="subscribe-actions">
+            <button type="button" class="free-btn">Start Free Trial</button>
+            <button type="button" class="buy-btn">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Pricing Section -->
+
+  <!-- Start Feature Plan Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="info">
+        <h2>Compare our plans and find the right one for you</h2>
+        <p>StreamVibe offers three different plans to fit your needs: Basic, Standard, and Premium. Compare the features
+          of each
+          plan and choose the one that's right for you.</p>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Features</th>
+              <th>Basic</th>
+              <th class="popular">Standard <span>Popular</span></th>
+              <th>Premium</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Price</td>
+              <td>$9.99/Month</td>
+              <td>$12.99/Month</td>
+              <td>$14.99/Month</td>
+            </tr>
+            <tr>
+              <td>Content</td>
+              <td>Access to a wide selection of movies and shows, including some new releases.</td>
+              <td>Access to a wider selection of movies and shows, including most new releases and exclusive content
+              </td>
+              <td>Access to a widest selection of movies and shows, including all new releases and Offline Viewing</td>
+            </tr>
+            <tr>
+              <td>Devices</td>
+              <td>Watch on one device simultaneously</td>
+              <td>Watch on Two device simultaneously</td>
+              <td>Watch on Four device simultaneously</td>
+            </tr>
+            <tr>
+              <td>Free Trail</td>
+              <td>7 Days</td>
+              <td>7 Days</td>
+              <td>7 Days</td>
+            </tr>
+            <tr>
+              <td>Cancel Anytime</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>HDR</td>
+              <td>No</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Dolby Atmos</td>
+              <td>No</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Ad - Free</td>
+              <td>No</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Offline Viewing</td>
+              <td>No</td>
+              <td>Yes, for select titles.</td>
+              <td>Yes, for all titles.</td>
+            </tr>
+            <tr>
+              <td>Family Sharing</td>
+              <td>No</td>
+              <td>Yes, up to 5 family members.</td>
+              <td>Yes, up to 6 family members.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- End Feature Plan Section -->
+
+  <!-- Start Call To Action Section -->
+  <section class="cta">
+    <div class="container">
+      <div class="box">
+        <div class="cta-info">
+          <h3>Start your free trial today!</h3>
+          <p>This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.
+          </p>
+        </div>
+        <button type="button" class="free-plan-btn">Start a Free Trail</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Call To Action Section -->
+
+  <!-- Start Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="bages-box">
+        <div class="bage-box">
+          <h4>Home</h4>
+          <ul>
+            <li><a href="index.html#categories">Categories</a></li>
+            <li><a href="index.html#devices">Devices</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="index.html#question">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Movies</h4>
+          <ul>
+            <li><a href="movies.html#genres">Genres</a></li>
+            <li><a href="movies.html#trending">Trending</a></li>
+            <li><a href="movies.html#release">New Release</a></li>
+            <li><a href="movies.html#populer">Popular</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Subscription</h4>
+          <ul>
+            <li><a href="subscription.html#plans">Plans</a></li>
+            <li><a href="subscription.html#features">Features</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Connect With Us</h4>
+          <div class="connect">
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reserved">
+        <p>@2026 streamvib, All Rights Reserved</p>
+        <div class="text">
+          <p>Terms of Use</p>
+          <p>Privacy Policy</p>
+          <p>Cookie Policy</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <!-- Start Popup Search -->
+  <section class="popup">
+    <div class="search-popup">
+      <div class="search-content">
+        <input type="text" placeholder="Search for a movie...">
+        <div class="icon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="search-results">
+      </div>
+    </div>
+  </section>
+  <!-- End Popup Search -->
+
+  <!-- script files -->
+  <script src="javaScript/api.js"></script>
+  <script src="javaScript/main.js"></script>
+</body>
+
+</html>

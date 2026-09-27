@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies App</title>
+  <!-- Style Files -->
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/support.css">
+  <!-- Google Font Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Start Header And Navbar -->
+  <header class="main-header">
+    <div class="container">
+      <nav class="nav-container">
+        <img src="images/Logo.svg" alt="logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a class="active" href="support.html">Support</a></li>
+          <li><a href="subscription.html">Subscription</a></li>
+        </ul>
+        <div class="nav-icons">
+          <i class="search fa-brands fa-sistrix "></i>
+          <i class="notif fa-regular fa-bell "></i>
+        </div>
+        <div class="burger-menue">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header And Navbar -->
+
+  <!-- Start Support Section -->
+  <section class="support" id="contact">
+    <div class="container">
+      <div class="content">
+        <div class="info">
+          <h2>Welcome to our support page!</h2>
+          <p>We're here to help you with any problems you may be having with our product.</p>
+          <img src="images/support.webp" alt="support Image">
+        </div>
+        <form class="form">
+          <div class="box">
+            <div class="input-box">
+              <label for="firstName">First Name</label>
+              <input type="text" placeholder="Enter First Name" id="firstName">
+            </div>
+            <div class="input-box">
+              <label for="lastName">Last Name</label>
+              <input type="text" placeholder="Enter Last Name" id="lastName">
+            </div>
+          </div>
+          <div class="box">
+            <div class="input-box">
+              <label for="email">Email</label>
+              <input type="email" name="mail" id="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="input-box">
+              <label for="phone">Phone Numnber</label>
+              <div class="field">
+                <div class="selection">
+                  <select>
+                    <option value="+20">🇪🇬</option>
+                    <option value="+1">🇺🇸</option>
+                    <option value="+44">🇬🇧</option>
+                    <option value="+49">🇩🇪</option>
+                  </select>
+                </div>
+                <input type="tel" placeholder="Enter Phone Number" required name="phon" id="phone">
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="input-box">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" placeholder="Enter your Message"></textarea>
+            </div>
+          </div>
+          <div class="box">
+            <div class="input">
+              <input type="checkbox" id="terms">
+              <label for="terms" class="privacy">I agree with Terms Use and Privacy Policy</label>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End Support Section -->
+
+  <!-- Start Frequently Asked Questions -->
+  <section class="questions" id="question">
+    <div class="container">
+      <div class="title">
+        <div class="info">
+          <h3>Frequently Asked Questions</h3>
+          <p>Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions
+            about
+            StreamVibe.
+          </p>
+        </div>
+        <a href="support.html" class="ask-btn">Ask Question</a>
+      </div>
+      <div class="content">
+        <div class="card-box active">
+          <!-- Question 01 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>01</span>
+                <h3>What is StreamVibe?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+          <!-- Question 02 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>02</span>
+                <h3>How much does StreamVibe cost?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+          <!-- Question 03 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>03</span>
+                <h3>What content is available on StreamVibe?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+          <!-- Question 04 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>04</span>
+                <h3>How can I watch StreamVibe?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-box">
+          <!-- Question 05 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>05</span>
+                <h3>How do I sign up for StreamVibe?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+          <!-- Question 06 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>06</span>
+                <h3>What is the StreamVibe free trial?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+          <!-- Question 07 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>07</span>
+                <h3>How do I contact StreamVibe customer support?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+          <!-- Question 08 -->
+          <div class="question-item">
+            <div class="question-header">
+              <div class="question">
+                <span>08</span>
+                <h3>What are the StreamVibe payment methods?</h3>
+              </div>
+              <div class="show-ansower">
+                <i class="fa-solid fa-plus plus-icon"></i>
+                <i class="fa-solid fa-minus minus-icon"></i>
+              </div>
+            </div>
+            <div class="question-answer">
+              <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Frequently Asked Questions -->
+
+  <!-- Start Call To Action Section -->
+  <section class="cta">
+    <div class="container">
+      <div class="box">
+        <div class="cta-info">
+          <h3>Start your free trial today!</h3>
+          <p>This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.
+          </p>
+        </div>
+        <button type="button" class="free-plan-btn">Start a Free Trail</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Call To Action Section -->
+
+  <!-- Start Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="bages-box">
+        <div class="bage-box">
+          <h4>Home</h4>
+          <ul>
+            <li><a href="index.html#categories">Categories</a></li>
+            <li><a href="index.html#devices">Devices</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="index.html#question">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Movies</h4>
+          <ul>
+            <li><a href="movies.html#genres">Genres</a></li>
+            <li><a href="movies.html#trending">Trending</a></li>
+            <li><a href="movies.html#release">New Release</a></li>
+            <li><a href="movies.html#populer">Popular</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Subscription</h4>
+          <ul>
+            <li><a href="subscription.html#plans">Plans</a></li>
+            <li><a href="subscription.html#features">Features</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Connect With Us</h4>
+          <div class="connect">
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reserved">
+        <p>@2026 streamvib, All Rights Reserved</p>
+        <div class="text">
+          <p>Terms of Use</p>
+          <p>Privacy Policy</p>
+          <p>Cookie Policy</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <!-- Start Popup Search -->
+  <section class="popup">
+    <div class="search-popup">
+      <div class="search-content">
+        <input type="text" placeholder="Search for a movie...">
+        <div class="icon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="search-results">
+      </div>
+    </div>
+  </section>
+  <!-- End Popup Search -->
+
+  <!-- script files -->
+  <script src="javaScript/api.js"></script>
+  <script src="javaScript/main.js"></script>
+</body>
+
+</html>

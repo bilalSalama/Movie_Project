@@ -1,0 +1,66 @@
+/* Start Features Section */
+.features .info {
+  margin-top: 40px;
+}
+
+.features .info h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--header-color);
+  margin: 0;
+}
+
+.features .info p {
+  color: var(--paragraph-color);
+  max-width: 1120px;
+  margin-bottom: 60px;
+}
+
+.features .table-wrapper {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.features table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.features table th,
+.features table td {
+  padding: 24px;
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+.features table th{
+  color: var(--header-color);
+  background-color: var(--main-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.features table th.popular {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.features table th.popular span {
+  background-color: var(--button-color);
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+.features table td {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* End Features Section */

@@ -1,0 +1,179 @@
+/* Start Spport Section */
+.support .content {
+  display: flex;
+  gap: 40px;
+  padding-top: 40px;
+}
+
+.support .content .info {
+  flex: 0 1 30%;
+}
+
+.support .content .info h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--header-color);
+  margin: 0;
+}
+
+.support .content .info p {
+  color: var(--paragraph-color);
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.support .content .info img {
+  border-radius: 6px;
+  border: 6px solid var(--border-color);
+}
+
+.support .content .form {
+  flex: 1;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background-color: var(--main-color);
+}
+
+.support .content .form .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.support .content .form .box:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.support .content .form .box .input-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.support .content .form .box .input-box label {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--header-color);
+  margin-bottom: 10px;
+}
+
+.support .content .form .box .input-box input {
+  padding: 16px;
+  background-color: #141414;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  height: 53px;
+  caret-color: var(--button-color);
+  color: var(--header-color);
+  width: 100%;
+  transition: 0.3s;
+}
+
+.support .content .form .box .input-box input:focus {
+  outline: none;
+  border-color: var(--button-color);
+}
+
+.support .content .form .box .input-box .field {
+  display: flex;
+  gap: 10px;
+}
+
+.support .content .form .box .input-box .field .selection {
+  padding: 0 8px;
+  background-color: #141414;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  display: flex;
+}
+
+.support .content .form .box .input-box .field select {
+  background-color: #141414;
+  color: var(--paragraph-color);
+  border: none;
+  cursor: pointer;
+}
+
+.support .content .form .box .input-box .field select:focus {
+  outline: none;
+}
+
+.support .content .form .box .input-box textarea {
+  padding: 16px;
+  border-radius: 6px;
+  background-color: #141414;
+  border-color: var(--border-color);
+  color: var(--paragraph-color);
+  font-size: 14px;
+  resize: vertical;
+  transition: 0.3s;
+}
+
+.support .content .form .box .input-box textarea:focus {
+  outline: none;
+  border-color: var(--button-color);
+}
+
+.support .content .form .box .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support .content .form .box .input input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.support .content .form .box .input .privacy {
+  color: var(--paragraph-color);
+}
+
+.support .content .form .box .submit-btn {
+  padding: 14px 20px;
+  background-color: var(--button-color);
+  color: var(--header-color);
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.support .content .form .box .submit-btn:hover {
+  background-color: var(--button-hover-color);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 991px) {
+  .support .content {
+    flex-direction: column;
+  }
+
+  .support .content .info,
+  .support .content .form {
+    flex: 1 1 100%;
+  }
+
+  .support .content .info img {
+    width: 100%;
+  }
+
+  .support .content .form {
+    padding: 20px;
+  }
+
+  .support .content .form .box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    .support .content .form .box .input-box{
+      width: 100%;
+    }
+}
+/* End Spport Section */

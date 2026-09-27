@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies App</title>
+  <!-- Style Files -->
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/genre_details.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <!-- Google Font Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start Header And Navbar -->
+  <header class="main-header">
+    <div class="container">
+      <nav class="nav-container">
+        <img src="images/Logo.svg" alt="logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="subscription.html">Subscription</a></li>
+        </ul>
+        <div class="nav-icons">
+          <i class="search fa-brands fa-sistrix "></i>
+          <i class="notif fa-regular fa-bell "></i>
+        </div>
+        <div class="burger-menue">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header And Navbar -->
+
+  <!-- Start Movies Section -->
+  <section class="vedieos">
+    <div class="container">
+      <div class="movies" id="genre">
+      </div>
+      <div class="movies" id="top10">
+      </div>
+    </div>
+  </section>
+  <!-- Start Movies Section -->
+
+  <!-- Start Call To Action Section -->
+  <section class="cta">
+    <div class="container">
+      <div class="box">
+        <div class="cta-info">
+          <h3>Start your free trial today!</h3>
+          <p>This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.
+          </p>
+        </div>
+        <button type="button" class="free-plan-btn">Start a Free Trail</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Call To Action Section -->
+
+  <!-- Start Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="bages-box">
+        <div class="bage-box">
+          <h4>Home</h4>
+          <ul>
+            <li><a href="index.html#categories">Categories</a></li>
+            <li><a href="index.html#devices">Devices</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="index.html#question">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Movies</h4>
+          <ul>
+            <li><a href="movies.html#genres">Genres</a></li>
+            <li><a href="movies.html#trending">Trending</a></li>
+            <li><a href="movies.html#release">New Release</a></li>
+            <li><a href="movies.html#populer">Popular</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Subscription</h4>
+          <ul>
+            <li><a href="subscription.html#plans">Plans</a></li>
+            <li><a href="subscription.html#features">Features</a></li>
+          </ul>
+        </div>
+        <div class="bage-box">
+          <h4>Connect With Us</h4>
+          <div class="connect">
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reserved">
+        <p>@2026 streamvib, All Rights Reserved</p>
+        <div class="text">
+          <p>Terms of Use</p>
+          <p>Privacy Policy</p>
+          <p>Cookie Policy</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <!-- Start Popup Search -->
+  <section class="popup">
+    <div class="search-popup">
+      <div class="search-content">
+        <input type="text" placeholder="Search for a movie...">
+        <div class="icon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="search-results">
+      </div>
+    </div>
+  </section>
+  <!-- End Popup Search -->
+
+  <!-- script files -->
+  <script src="javaScript/api.js"></script>
+  <script src="javaScript/main.js"></script>
+</body>
+
+</html>
